@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NYTimes</string>
+    <string name="search">Search</string>
+    <string name="most_emailed">most Emailed</string>
+    <string name="most_shared">most Shared</string>
+    <string name="most_viewed">most Viewed</string>
+    <string name="menu_favorites">Favorites</string>
+
+    <string name="view_navigation_open">Open</string>
+    <string name="view_navigation_close">Close</string>
+</resources>

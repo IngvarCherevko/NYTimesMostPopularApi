@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ingvar.just01.MainActivity">
+
+    <item android:id="@+id/action_most_emailed"
+        android:title="@string/most_emailed"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:onClick="onSettingsMenuClick"/>
+
+    <item android:id="@+id/action_settings_menu"
+        android:title="@string/most_shared"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:onClick="onSettingsMenuClick"/>
+
+    <item android:id="@+id/action_donate"
+        android:title="@string/most_viewed"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:onClick="onSettingsMenuClick"/>
+</menu>
